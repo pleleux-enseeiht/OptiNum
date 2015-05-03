@@ -26,4 +26,4 @@ These two methods require the calculus of a step with direction and length. The 
 ##Optimisation under constraints
 * Augmented Lagrangian method: *lagrangienAugmente.m*
 
-**For more details, see OptiNum.pdf (in french)**
+**For more details, see OptiNum.pdf (in french) written by *El Houcine Bergou*, *Anne Cossonnière*, *Youssef Diouane*, *Serge Gratton*, *Daniel Ruiz*.**
