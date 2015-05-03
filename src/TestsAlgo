@@ -1,0 +1,1140 @@
+---------------------------------------------------------------------------
+-------------  PROGRAMME DE TEST: OPTIMISATION NUMERIQUE  -----------------
+---------------------------------------------------------------------------
+Tests pour l algorithme de Newton de critères d arrêts : 
+	- | ||xk+1||-||xk|| |<Eps
+	- | ||f(xk+1)||-||f(xk)|| |<Eps
+	- iter > nb_iter
+Algorithme de Newton avec pas fixe :
+f1(x) = 2*(x+y-2)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+
+nombre d évaluations des fonctions : 
+	- f1 : 7
+	- grad f1 : 2
+	- Hessienne f1 : 2
+durée d exécution : 8.000000e-02
+---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1, 1]
+nombre d itérations : 2
+
+nombre d évaluations des fonctions : 
+	- f1 : 7
+	- grad f1 : 2
+	- Hessienne f1 : 2
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+
+nombre d évaluations des fonctions : 
+	- f1 : 7
+	- grad f1 : 2
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1, 1]
+nombre d itérations : 2
+
+nombre d évaluations des fonctions : 
+	- f1 : 7
+	- grad f1 : 2
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1, 1]
+nombre d itérations : 2
+
+nombre d évaluations des fonctions : 
+	- f1 : 7
+	- grad f1 : 2
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1]
+nombre d itérations : 2
+
+nombre d évaluations des fonctions : 
+	- f1 : 7
+	- grad f1 : 2
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme de Newton avec pas fixe :
+f2(x) = 100*(y-x²)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 3
+nombre d évaluations des fonctions : 
+	- f2 : 10
+	- grad f2 : 3
+	- Hessienne f2 : 3
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f2 : 19
+	- grad f2 : 6
+	- Hessienne f2 : 6
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f2 : 7
+	- grad f2 : 2
+	- Hessienne f2 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f2 : 7
+	- grad f2 : 2
+	- Hessienne f2 : 2
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f2 : 19
+	- grad f2 : 6
+	- Hessienne f2 : 6
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f2 : 19
+	- grad f2 : 6
+	- Hessienne f2 : 6
+durée d exécution : 0
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme de Newton avec backtracking :
+f1(x) = 2*(x+y-2)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme de Newton avec backtracking
+f2(x) = 100*(y-x²)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 16
+nombre d évaluations des fonctions : 
+	- f2 : 95
+	- grad f2 : 39
+	- Hessienne f2 : 16
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [-8.466746e-02, 3.608551e-02]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f2 : 141
+	- grad f2 : 67
+	- Hessienne f2 : 6
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f2 : 11
+	- grad f2 : 4
+	- Hessienne f2 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f2 : 11
+	- grad f2 : 4
+	- Hessienne f2 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1, 1]
+nombre d itérations : 24
+nombre d évaluations des fonctions : 
+	- f2 : 137
+	- grad f2 : 56
+	- Hessienne f2 : 24
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1.000000e+00]
+nombre d itérations : 50
+nombre d évaluations des fonctions : 
+	- f2 : 287
+	- grad f2 : 118
+	- Hessienne f2 : 50
+durée d exécution : 2.000000e-02
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme de Newton avec bisection:
+f1(x) = 2*(x+y-2)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 8
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 8
+	- Hessienne f1 : 2
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 8
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 8
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 8
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 8
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme de Newton avec bisection:
+f2(x) = 100*(y-x²)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 16
+nombre d évaluations des fonctions : 
+	- f2 : 95
+	- grad f2 : 73
+	- Hessienne f2 : 16
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1, 1]
+nombre d itérations : 17
+nombre d évaluations des fonctions : 
+	- f2 : 100
+	- grad f2 : 77
+	- Hessienne f2 : 17
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f2 : 11
+	- grad f2 : 8
+	- Hessienne f2 : 2
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f2 : 11
+	- grad f2 : 8
+	- Hessienne f2 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1, 1.000000e+00]
+nombre d itérations : 22
+nombre d évaluations des fonctions : 
+	- f2 : 125
+	- grad f2 : 95
+	- Hessienne f2 : 22
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1]
+nombre d itérations : 50
+nombre d évaluations des fonctions : 
+	- f2 : 291
+	- grad f2 : 222
+	- Hessienne f2 : 50
+durée d exécution : 2.000000e-02
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme de Newton avec interpolation quadratique
+f1(x) = 2*(x+y-2)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 4
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme de Newton avec interpolation quadratique
+f2(x) = 100*(y-x²)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 1964
+nombre d évaluations des fonctions : 
+	- f2 : 9823
+	- grad f2 : 3928
+	- Hessienne f2 : 1964
+durée d exécution : 6.000000e-01
+---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 1957
+nombre d évaluations des fonctions : 
+	- f2 : 9788
+	- grad f2 : 3914
+	- Hessienne f2 : 1957
+durée d exécution : 6.200000e-01
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f2 : 11
+	- grad f2 : 4
+	- Hessienne f2 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f2 : 11
+	- grad f2 : 4
+	- Hessienne f2 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 7530
+nombre d évaluations des fonctions : 
+	- f2 : 37653
+	- grad f2 : 15060
+	- Hessienne f2 : 7530
+durée d exécution : 2.520000e+00
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1.000075e+00, 1.000150e+00]
+nombre d itérations : 100000
+nombre d évaluations des fonctions : 
+	- f2 : 500004
+	- grad f2 : 200000
+	- Hessienne f2 : 100000
+durée d exécution : 3.120000e+01
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme de Newton avec approche et finition
+f1(x) = 2*(x+y-2)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 13
+	- grad f1 : 6
+	- Hessienne f1 : 2
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 13
+	- grad f1 : 6
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 13
+	- grad f1 : 6
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 13
+	- grad f1 : 6
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 13
+	- grad f1 : 6
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 13
+	- grad f1 : 6
+	- Hessienne f1 : 2
+durée d exécution : 0
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme de Newton avec finition et approche
+f2(x) = 100*(y-x²)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 16
+nombre d évaluations des fonctions : 
+	- f2 : 131
+	- grad f2 : 77
+	- Hessienne f2 : 16
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1, 1]
+nombre d itérations : 17
+nombre d évaluations des fonctions : 
+	- f2 : 137
+	- grad f2 : 80
+	- Hessienne f2 : 17
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f2 : 13
+	- grad f2 : 6
+	- Hessienne f2 : 2
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f2 : 13
+	- grad f2 : 6
+	- Hessienne f2 : 2
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [3, 1]
+L algorithme ne marche pas avec ce point, il boucle
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+L algorithme ne marche pas avec ce point, il boucle
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Tests pour l algorithme de Newton de critères d arrêts : 
+	- norm(grad f(xk))<Eps
+	- iter > nb_iter
+Algorithme BFGS avec pas fixe:
+f1(x) = 2*(x+y-2)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 5
+	- grad f1 : 9
+	- Hessienne f1 : 0
+durée d exécution : 2.000000e-02---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 13
+	- grad f1 : 25
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 13
+	- grad f1 : 25
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 13
+	- grad f1 : 25
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 13
+	- grad f1 : 25
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 2
+nombre d évaluations des fonctions : 
+	- f1 : 5
+	- grad f1 : 9
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme BFGS avec pas fixe:
+f2(x) = 100*(y-x²)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 50
+nombre d évaluations des fonctions : 
+	- f2 : 101
+	- grad f2 : 201
+	- Hessienne f2 : 0
+durée d exécution : 2.000000e-02---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 38
+nombre d évaluations des fonctions : 
+	- f2 : 77
+	- grad f2 : 153
+	- Hessienne f2 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 21
+nombre d évaluations des fonctions : 
+	- f2 : 43
+	- grad f2 : 85
+	- Hessienne f2 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 31
+nombre d évaluations des fonctions : 
+	- f2 : 63
+	- grad f2 : 125
+	- Hessienne f2 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 171
+nombre d évaluations des fonctions : 
+	- f2 : 343
+	- grad f2 : 685
+	- Hessienne f2 : 0
+durée d exécution : 4.000000e-02---------------------------------------------------------------------------
+Point initial: [10, 10]
+L algorithme ne marche pas avec ce point, il boucle
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme BFGS avec backtracking
+f1(x) = 2*(x+y-2)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 1
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 9
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 9
+nombre d évaluations des fonctions : 
+	- f1 : 61
+	- grad f1 : 58
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 9
+nombre d évaluations des fonctions : 
+	- f1 : 61
+	- grad f1 : 58
+	- Hessienne f1 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 9
+nombre d évaluations des fonctions : 
+	- f1 : 59
+	- grad f1 : 57
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 9
+nombre d évaluations des fonctions : 
+	- f1 : 59
+	- grad f1 : 57
+	- Hessienne f1 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1]
+nombre d itérations : 1
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 9
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme BFGS avec backtracking
+f2(x) = 100*(y-x²)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 24
+nombre d évaluations des fonctions : 
+	- f2 : 145
+	- grad f2 : 145
+	- Hessienne f2 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1, 1.000000e+00]
+nombre d itérations : 32
+nombre d évaluations des fonctions : 
+	- f2 : 379
+	- grad f2 : 286
+	- Hessienne f2 : 0
+durée d exécution : 2.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 22
+nombre d évaluations des fonctions : 
+	- f2 : 139
+	- grad f2 : 136
+	- Hessienne f2 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 37
+nombre d évaluations des fonctions : 
+	- f2 : 229
+	- grad f2 : 226
+	- Hessienne f2 : 0
+durée d exécution : 2.000000e-02---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [NaN, NaN]
+nombre d itérations : 10
+nombre d évaluations des fonctions : 
+	- f2 : 185
+	- grad f2 : 123
+	- Hessienne f2 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 85
+nombre d évaluations des fonctions : 
+	- f2 : 573
+	- grad f2 : 542
+	- Hessienne f2 : 0
+durée d exécution : 4.000000e-02---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme BFGS avec bisection:
+f1(x) = 2*(x+y-2)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 1
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 11
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 35
+	- grad f1 : 48
+	- Hessienne f1 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 35
+	- grad f1 : 48
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 35
+	- grad f1 : 48
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 35
+	- grad f1 : 48
+	- Hessienne f1 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1]
+nombre d itérations : 1
+nombre d évaluations des fonctions : 
+	- f1 : 11
+	- grad f1 : 11
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme BFGS avec bisection:
+f2(x) = 100*(y-x²)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 21
+nombre d évaluations des fonctions : 
+	- f2 : 125
+	- grad f2 : 174
+	- Hessienne f2 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 20
+nombre d évaluations des fonctions : 
+	- f2 : 137
+	- grad f2 : 185
+	- Hessienne f2 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 15
+nombre d évaluations des fonctions : 
+	- f2 : 107
+	- grad f2 : 141
+	- Hessienne f2 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 20
+nombre d évaluations des fonctions : 
+	- f2 : 129
+	- grad f2 : 175
+	- Hessienne f2 : 0
+durée d exécution : 2.000000e-02---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 26
+nombre d évaluations des fonctions : 
+	- f2 : 189
+	- grad f2 : 253
+	- Hessienne f2 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 47
+nombre d évaluations des fonctions : 
+	- f2 : 317
+	- grad f2 : 442
+	- Hessienne f2 : 0
+durée d exécution : 3.000000e-02---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme BFGS avec interpolation quadratique
+f1(x) = 2*(x+y-2)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1, 1]
+nombre d itérations : 1
+nombre d évaluations des fonctions : 
+	- f1 : 7
+	- grad f1 : 6
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [0, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 152
+nombre d évaluations des fonctions : 
+	- f1 : 611
+	- grad f1 : 761
+	- Hessienne f1 : 0
+durée d exécution : 6.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 152
+nombre d évaluations des fonctions : 
+	- f1 : 611
+	- grad f1 : 761
+	- Hessienne f1 : 0
+durée d exécution : 5.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 157
+nombre d évaluations des fonctions : 
+	- f1 : 631
+	- grad f1 : 786
+	- Hessienne f1 : 0
+durée d exécution : 6.000000e-02---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 157
+nombre d évaluations des fonctions : 
+	- f1 : 631
+	- grad f1 : 786
+	- Hessienne f1 : 0
+durée d exécution : 6.000000e-02---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1, 1]
+nombre d itérations : 1
+nombre d évaluations des fonctions : 
+	- f1 : 7
+	- grad f1 : 6
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme BFGS avec interpolation quadratique
+f2(x) = 100*(y-x²)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 18782
+nombre d évaluations des fonctions : 
+	- f2 : 75131
+	- grad f2 : 93911
+	- Hessienne f2 : 0
+durée d exécution : 6.880000e+00---------------------------------------------------------------------------
+Point initial: [0, 1]
+L algorithme ne marche pas avec ce point, il boucle
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [9.999849e-01, 3.957399e-03]
+nombre d itérations : 100000
+nombre d évaluations des fonctions : 
+	- f2 : 400003
+	- grad f2 : 500001
+	- Hessienne f2 : 0
+durée d exécution : 3.630000e+01---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1.000017e+00, 2.998060e+00]
+nombre d itérations : 100000
+nombre d évaluations des fonctions : 
+	- f2 : 400003
+	- grad f2 : 500001
+	- Hessienne f2 : 0
+durée d exécution : 3.557000e+01---------------------------------------------------------------------------
+Point initial: [3, 1]
+résultat : [2.999999e+00, 1.000045e+00]
+nombre d itérations : 100000
+nombre d évaluations des fonctions : 
+	- f2 : 400003
+	- grad f2 : 500001
+	- Hessienne f2 : 0
+durée d exécution : 3.562000e+01---------------------------------------------------------------------------
+Point initial: [10, 10]
+résultat : [1.000000e+01, 1.000000e+01]
+nombre d itérations : 100000
+nombre d évaluations des fonctions : 
+	- f2 : 400003
+	- grad f2 : 500001
+	- Hessienne f2 : 0
+durée d exécution : 3.563000e+01---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme BFGS avec approche et finition
+f1(x) = 2*(x+y-2)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+L algorithme ne marche pas avec ce point, il boucle
+résultat : [1, 1]
+nombre d itérations : 1
+nombre d évaluations des fonctions : 
+	- f1 : 17
+	- grad f1 : 15
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [0, 1]
+L algorithme ne marche pas avec ce point, il boucle
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 51
+	- grad f1 : 52
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [1, 0]
+L algorithme ne marche pas avec ce point, il boucle
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 51
+	- grad f1 : 52
+	- Hessienne f1 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [1, 3]
+L algorithme ne marche pas avec ce point, il boucle
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 51
+	- grad f1 : 52
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+Point initial: [3, 1]
+L algorithme ne marche pas avec ce point, il boucle
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 6
+nombre d évaluations des fonctions : 
+	- f1 : 51
+	- grad f1 : 52
+	- Hessienne f1 : 0
+durée d exécution : 1.000000e-02---------------------------------------------------------------------------
+Point initial: [10, 10]
+L algorithme ne marche pas avec ce point, il boucle
+résultat : [1, 1]
+nombre d itérations : 1
+nombre d évaluations des fonctions : 
+	- f1 : 17
+	- grad f1 : 15
+	- Hessienne f1 : 0
+durée d exécution : 0---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Algorithme BFGS avec approche et finition
+f2(x) = 100*(y-x²)²+(1-x)²
+---------------------------------------------------------------------------
+Point initial: [0, 0]
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 18782
+nombre d évaluations des fonctions : 
+	- f2 : 75131
+	- grad f2 : 93911
+	- Hessienne f2 : 0
+durée d exécution : 6.700000e+00---------------------------------------------------------------------------
+Point initial: [0, 1]
+L algorithme ne marche pas avec ce point, il boucle
+---------------------------------------------------------------------------
+Point initial: [1, 0]
+résultat : [9.999849e-01, 3.957399e-03]
+nombre d itérations : 100000
+nombre d évaluations des fonctions : 
+	- f2 : 400003
+	- grad f2 : 500001
+	- Hessienne f2 : 0
+durée d exécution : 3.556000e+01---------------------------------------------------------------------------
+Point initial: [1, 3]
+résultat : [1.000017e+00, 2.998060e+00]
+nombre d itérations : 100000
+nombre d évaluations des fonctions : 
+	- f2 : 400003
+	- grad f2 : 500001
+	- Hessienne f2 : 0
+durée d exécution : 3.560000e+01---------------------------------------------------------------------------
+Point initial: [3, 1]
+L algorithme ne marche pas avec ce point, il boucle
+---------------------------------------------------------------------------
+Point initial: [10, 10]
+L algorithme ne marche pas avec ce point, il boucle

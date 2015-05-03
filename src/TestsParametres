@@ -1,0 +1,126 @@
+---------------------------------------------------------------------------
+-------------  PROGRAMME DE TEST: OPTIMISATION NUMERIQUE  -----------------
+---------------------  INFLUENCE DES PARAMETRES  --------------------------
+---------------------------------------------------------------------------
+Les tests seront effectués sur l algorithme de Newton appliqué à f2 au point [10, 10] avec 
+	- backtracking pour tester l influence du paramètre de contraction
+	- bisection pour tester l inluence de c1 et c2
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Tests sur l influence du paramètre de contraction ro :
+---------------------------------------------------------------------------
+Valeur du paramètre : ro = 1.000000e-03
+résultat : [1, 1]
+nombre d itérations : 6617
+nombre d évaluations des fonctions : 
+	- f1 : 46306
+	- grad f1 : 19844
+	- Hessienne f1 : 6617
+durée d exécution : 2.830000e+00
+---------------------------------------------------------------------------
+Valeur du paramètre : ro = 1.000000e-01
+résultat : [1, 1]
+nombre d itérations : 167
+nombre d évaluations des fonctions : 
+	- f1 : 1144
+	- grad f1 : 488
+	- Hessienne f1 : 167
+durée d exécution : 7.000000e-02
+---------------------------------------------------------------------------
+Valeur du paramètre : ro = 5.000000e-01
+résultat : [1, 1.000000e+00]
+nombre d itérations : 50
+nombre d évaluations des fonctions : 
+	- f1 : 287
+	- grad f1 : 118
+	- Hessienne f1 : 50
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Valeur du paramètre : ro = 9.000000e-01
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 245
+nombre d évaluations des fonctions : 
+	- f1 : 8812
+	- grad f1 : 4283
+	- Hessienne f1 : 245
+durée d exécution : 4.700000e-01
+---------------------------------------------------------------------------
+Valeur du paramètre : ro = 9.500000e-01
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 439
+nombre d évaluations des fonctions : 
+	- f1 : 41442
+	- grad f1 : 20501
+	- Hessienne f1 : 439
+durée d exécution : 2.210000e+00
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Tests sur l influence des paramètres c1 et c2 :
+---------------------------------------------------------------------------
+Valeur des paramètres : c1 = 1.000000e-01, c2 = 2.000000e-01
+résultat : [5.255175e+00, 2.766211e+01]
+nombre d itérations : 13
+nombre d évaluations des fonctions : 
+	- f1 : 212
+	- grad f1 : 143
+	- Hessienne f1 : 13
+durée d exécution : 2.000000e-02
+---------------------------------------------------------------------------
+Valeur des paramètres : c1 = 1.000000e-01, c2 = 9.000000e-01
+résultat : [1, 1.000000e+00]
+nombre d itérations : 48
+nombre d évaluations des fonctions : 
+	- f1 : 279
+	- grad f1 : 211
+	- Hessienne f1 : 48
+durée d exécution : 2.000000e-02
+---------------------------------------------------------------------------
+Valeur des paramètres : c1 = 5.000000e-01, c2 = 9.000000e-01
+résultat : [1, 1.000000e+00]
+nombre d itérations : 50
+nombre d évaluations des fonctions : 
+	- f1 : 287
+	- grad f1 : 218
+	- Hessienne f1 : 50
+durée d exécution : 2.000000e-02
+---------------------------------------------------------------------------
+Valeur des paramètres : c1 = 8.000000e-01, c2 = 9.000000e-01
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 195
+nombre d évaluations des fonctions : 
+	- f1 : 1754
+	- grad f1 : 1169
+	- Hessienne f1 : 195
+durée d exécution : 1.200000e-01
+---------------------------------------------------------------------------
+Valeur des paramètres : c1 = 1.000000e-06, c2 = 2.000000e-06
+résultat : [7.774711e+00, 6.055353e+01]
+nombre d itérations : 8
+nombre d évaluations des fonctions : 
+	- f1 : 155
+	- grad f1 : 99
+	- Hessienne f1 : 8
+durée d exécution : 1.000000e-02
+---------------------------------------------------------------------------
+Valeur des paramètres : c1 = 4.000000e-01, c2 = 5.000000e-01
+résultat : [1, 1]
+nombre d itérations : 50
+nombre d évaluations des fonctions : 
+	- f1 : 291
+	- grad f1 : 222
+	- Hessienne f1 : 50
+durée d exécution : 2.000000e-02
+---------------------------------------------------------------------------
+Valeur des paramètres : c1 = 9.800000e-01, c2 = 9.900000e-01
+résultat : [1.000000e+00, 1.000000e+00]
+nombre d itérations : 1242
+nombre d évaluations des fonctions : 
+	- f1 : 18631
+	- grad f1 : 11178
+	- Hessienne f1 : 1242
+durée d exécution : 1.140000e+00
