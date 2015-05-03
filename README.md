@@ -7,7 +7,7 @@
   * f1(x, y) = 2(x + y − 2)² + (x − y)²,
   * f2(x, y) = 100(y − x2 )² + (1 − x)²
 * *equation_degre_2.m*, *lagrangien.m* and *Phi.m* contain sub functions,
-* *test.m* and *testParametre.m* contain the tests of the functions,
+* *test.m* and *testParametre.m* contain the tests of the functions, *TestsAlgo* and *TestsParametres* contain their output respectively,
 * other files contain all optimisation methods.
 
 #Optimisation methods
@@ -26,4 +26,4 @@ These two methods require the calculus of a step with direction and length. The 
 ##Optimisation under constraints
 * Augmented Lagrangian method: *lagrangienAugmente.m*
 
-**For more details, see OptiNum.pdf (in french)**
+**For more details, see *OptiNum.pdf* (in french) written by *El Houcine Bergou*, *Anne Cossonnière*, *Youssef Diouane*, *Serge Gratton*, *Daniel Ruiz*. You can also read *Report.pdf* which contains performance information on all implementations.**
